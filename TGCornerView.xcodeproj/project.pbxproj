@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60EB42CA1D3CBFDD00F81B44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB42C91D3CBFDD00F81B44 /* main.m */; };
+		60EB42CD1D3CBFDD00F81B44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB42CC1D3CBFDD00F81B44 /* AppDelegate.m */; };
+		60EB42D01D3CBFDD00F81B44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB42CF1D3CBFDD00F81B44 /* ViewController.m */; };
+		60EB42D31D3CBFDD00F81B44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60EB42D11D3CBFDD00F81B44 /* Main.storyboard */; };
+		60EB42D51D3CBFDD00F81B44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60EB42D41D3CBFDD00F81B44 /* Assets.xcassets */; };
+		60EB42D81D3CBFDD00F81B44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60EB42D61D3CBFDD00F81B44 /* LaunchScreen.storyboard */; };
+		60EB42E31D3CBFDD00F81B44 /* TGCornerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB42E21D3CBFDD00F81B44 /* TGCornerViewTests.m */; };
+		60EB42EE1D3CBFDD00F81B44 /* TGCornerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB42ED1D3CBFDD00F81B44 /* TGCornerViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60EB42DF1D3CBFDD00F81B44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60EB42BD1D3CBFDD00F81B44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60EB42C41D3CBFDD00F81B44;
+			remoteInfo = TGCornerView;
+		};
+		60EB42EA1D3CBFDD00F81B44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60EB42BD1D3CBFDD00F81B44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60EB42C41D3CBFDD00F81B44;
+			remoteInfo = TGCornerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60EB42C51D3CBFDD00F81B44 /* TGCornerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGCornerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EB42C91D3CBFDD00F81B44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60EB42CB1D3CBFDD00F81B44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60EB42CC1D3CBFDD00F81B44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60EB42CE1D3CBFDD00F81B44 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60EB42CF1D3CBFDD00F81B44 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60EB42D21D3CBFDD00F81B44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60EB42D41D3CBFDD00F81B44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60EB42D71D3CBFDD00F81B44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60EB42D91D3CBFDD00F81B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60EB42DE1D3CBFDD00F81B44 /* TGCornerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGCornerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EB42E21D3CBFDD00F81B44 /* TGCornerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGCornerViewTests.m; sourceTree = "<group>"; };
+		60EB42E41D3CBFDD00F81B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60EB42E91D3CBFDD00F81B44 /* TGCornerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGCornerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EB42ED1D3CBFDD00F81B44 /* TGCornerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGCornerViewUITests.m; sourceTree = "<group>"; };
+		60EB42EF1D3CBFDD00F81B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60EB42C21D3CBFDD00F81B44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EB42DB1D3CBFDD00F81B44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EB42E61D3CBFDD00F81B44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60EB42BC1D3CBFDD00F81B44 = {
+			isa = PBXGroup;
+			children = (
+				60EB42C71D3CBFDD00F81B44 /* TGCornerView */,
+				60EB42E11D3CBFDD00F81B44 /* TGCornerViewTests */,
+				60EB42EC1D3CBFDD00F81B44 /* TGCornerViewUITests */,
+				60EB42C61D3CBFDD00F81B44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60EB42C61D3CBFDD00F81B44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60EB42C51D3CBFDD00F81B44 /* TGCornerView.app */,
+				60EB42DE1D3CBFDD00F81B44 /* TGCornerViewTests.xctest */,
+				60EB42E91D3CBFDD00F81B44 /* TGCornerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60EB42C71D3CBFDD00F81B44 /* TGCornerView */ = {
+			isa = PBXGroup;
+			children = (
+				60EB42CB1D3CBFDD00F81B44 /* AppDelegate.h */,
+				60EB42CC1D3CBFDD00F81B44 /* AppDelegate.m */,
+				60EB42CE1D3CBFDD00F81B44 /* ViewController.h */,
+				60EB42CF1D3CBFDD00F81B44 /* ViewController.m */,
+				60EB42D11D3CBFDD00F81B44 /* Main.storyboard */,
+				60EB42D41D3CBFDD00F81B44 /* Assets.xcassets */,
+				60EB42D61D3CBFDD00F81B44 /* LaunchScreen.storyboard */,
+				60EB42D91D3CBFDD00F81B44 /* Info.plist */,
+				60EB42C81D3CBFDD00F81B44 /* Supporting Files */,
+			);
+			path = TGCornerView;
+			sourceTree = "<group>";
+		};
+		60EB42C81D3CBFDD00F81B44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60EB42C91D3CBFDD00F81B44 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60EB42E11D3CBFDD00F81B44 /* TGCornerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				60EB42E21D3CBFDD00F81B44 /* TGCornerViewTests.m */,
+				60EB42E41D3CBFDD00F81B44 /* Info.plist */,
+			);
+			path = TGCornerViewTests;
+			sourceTree = "<group>";
+		};
+		60EB42EC1D3CBFDD00F81B44 /* TGCornerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60EB42ED1D3CBFDD00F81B44 /* TGCornerViewUITests.m */,
+				60EB42EF1D3CBFDD00F81B44 /* Info.plist */,
+			);
+			path = TGCornerViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60EB42C41D3CBFDD00F81B44 /* TGCornerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60EB42F21D3CBFDD00F81B44 /* Build configuration list for PBXNativeTarget "TGCornerView" */;
+			buildPhases = (
+				60EB42C11D3CBFDD00F81B44 /* Sources */,
+				60EB42C21D3CBFDD00F81B44 /* Frameworks */,
+				60EB42C31D3CBFDD00F81B44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGCornerView;
+			productName = TGCornerView;
+			productReference = 60EB42C51D3CBFDD00F81B44 /* TGCornerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60EB42DD1D3CBFDD00F81B44 /* TGCornerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60EB42F51D3CBFDD00F81B44 /* Build configuration list for PBXNativeTarget "TGCornerViewTests" */;
+			buildPhases = (
+				60EB42DA1D3CBFDD00F81B44 /* Sources */,
+				60EB42DB1D3CBFDD00F81B44 /* Frameworks */,
+				60EB42DC1D3CBFDD00F81B44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60EB42E01D3CBFDD00F81B44 /* PBXTargetDependency */,
+			);
+			name = TGCornerViewTests;
+			productName = TGCornerViewTests;
+			productReference = 60EB42DE1D3CBFDD00F81B44 /* TGCornerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60EB42E81D3CBFDD00F81B44 /* TGCornerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60EB42F81D3CBFDD00F81B44 /* Build configuration list for PBXNativeTarget "TGCornerViewUITests" */;
+			buildPhases = (
+				60EB42E51D3CBFDD00F81B44 /* Sources */,
+				60EB42E61D3CBFDD00F81B44 /* Frameworks */,
+				60EB42E71D3CBFDD00F81B44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60EB42EB1D3CBFDD00F81B44 /* PBXTargetDependency */,
+			);
+			name = TGCornerViewUITests;
+			productName = TGCornerViewUITests;
+			productReference = 60EB42E91D3CBFDD00F81B44 /* TGCornerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60EB42BD1D3CBFDD00F81B44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = VincentWu08;
+				TargetAttributes = {
+					60EB42C41D3CBFDD00F81B44 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					60EB42DD1D3CBFDD00F81B44 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 60EB42C41D3CBFDD00F81B44;
+					};
+					60EB42E81D3CBFDD00F81B44 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 60EB42C41D3CBFDD00F81B44;
+					};
+				};
+			};
+			buildConfigurationList = 60EB42C01D3CBFDD00F81B44 /* Build configuration list for PBXProject "TGCornerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60EB42BC1D3CBFDD00F81B44;
+			productRefGroup = 60EB42C61D3CBFDD00F81B44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60EB42C41D3CBFDD00F81B44 /* TGCornerView */,
+				60EB42DD1D3CBFDD00F81B44 /* TGCornerViewTests */,
+				60EB42E81D3CBFDD00F81B44 /* TGCornerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60EB42C31D3CBFDD00F81B44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EB42D81D3CBFDD00F81B44 /* LaunchScreen.storyboard in Resources */,
+				60EB42D51D3CBFDD00F81B44 /* Assets.xcassets in Resources */,
+				60EB42D31D3CBFDD00F81B44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EB42DC1D3CBFDD00F81B44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EB42E71D3CBFDD00F81B44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60EB42C11D3CBFDD00F81B44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EB42D01D3CBFDD00F81B44 /* ViewController.m in Sources */,
+				60EB42CD1D3CBFDD00F81B44 /* AppDelegate.m in Sources */,
+				60EB42CA1D3CBFDD00F81B44 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EB42DA1D3CBFDD00F81B44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EB42E31D3CBFDD00F81B44 /* TGCornerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EB42E51D3CBFDD00F81B44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EB42EE1D3CBFDD00F81B44 /* TGCornerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60EB42E01D3CBFDD00F81B44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60EB42C41D3CBFDD00F81B44 /* TGCornerView */;
+			targetProxy = 60EB42DF1D3CBFDD00F81B44 /* PBXContainerItemProxy */;
+		};
+		60EB42EB1D3CBFDD00F81B44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60EB42C41D3CBFDD00F81B44 /* TGCornerView */;
+			targetProxy = 60EB42EA1D3CBFDD00F81B44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60EB42D11D3CBFDD00F81B44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60EB42D21D3CBFDD00F81B44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60EB42D61D3CBFDD00F81B44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60EB42D71D3CBFDD00F81B44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60EB42F01D3CBFDD00F81B44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60EB42F11D3CBFDD00F81B44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60EB42F31D3CBFDD00F81B44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TGCornerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VincentWu08.TGCornerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		60EB42F41D3CBFDD00F81B44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TGCornerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VincentWu08.TGCornerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		60EB42F61D3CBFDD00F81B44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TGCornerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VincentWu08.TGCornerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGCornerView.app/TGCornerView";
+			};
+			name = Debug;
+		};
+		60EB42F71D3CBFDD00F81B44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TGCornerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VincentWu08.TGCornerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGCornerView.app/TGCornerView";
+			};
+			name = Release;
+		};
+		60EB42F91D3CBFDD00F81B44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TGCornerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VincentWu08.TGCornerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TGCornerView;
+			};
+			name = Debug;
+		};
+		60EB42FA1D3CBFDD00F81B44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TGCornerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VincentWu08.TGCornerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TGCornerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60EB42C01D3CBFDD00F81B44 /* Build configuration list for PBXProject "TGCornerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60EB42F01D3CBFDD00F81B44 /* Debug */,
+				60EB42F11D3CBFDD00F81B44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60EB42F21D3CBFDD00F81B44 /* Build configuration list for PBXNativeTarget "TGCornerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60EB42F31D3CBFDD00F81B44 /* Debug */,
+				60EB42F41D3CBFDD00F81B44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		60EB42F51D3CBFDD00F81B44 /* Build configuration list for PBXNativeTarget "TGCornerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60EB42F61D3CBFDD00F81B44 /* Debug */,
+				60EB42F71D3CBFDD00F81B44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		60EB42F81D3CBFDD00F81B44 /* Build configuration list for PBXNativeTarget "TGCornerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60EB42F91D3CBFDD00F81B44 /* Debug */,
+				60EB42FA1D3CBFDD00F81B44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60EB42BD1D3CBFDD00F81B44 /* Project object */;
+}
