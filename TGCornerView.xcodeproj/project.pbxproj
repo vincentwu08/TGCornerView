@@ -15,6 +15,7 @@
 		60EB42D81D3CBFDD00F81B44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60EB42D61D3CBFDD00F81B44 /* LaunchScreen.storyboard */; };
 		60EB42E31D3CBFDD00F81B44 /* TGCornerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB42E21D3CBFDD00F81B44 /* TGCornerViewTests.m */; };
 		60EB42EE1D3CBFDD00F81B44 /* TGCornerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB42ED1D3CBFDD00F81B44 /* TGCornerViewUITests.m */; };
+		60EB43021D3CCBDE00F81B44 /* TGCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB43011D3CCBDE00F81B44 /* TGCornerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		60EB42E91D3CBFDD00F81B44 /* TGCornerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGCornerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60EB42ED1D3CBFDD00F81B44 /* TGCornerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGCornerViewUITests.m; sourceTree = "<group>"; };
 		60EB42EF1D3CBFDD00F81B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60EB43001D3CCBDE00F81B44 /* TGCornerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCornerView.h; sourceTree = "<group>"; };
+		60EB43011D3CCBDE00F81B44 /* TGCornerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCornerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		60EB42C71D3CBFDD00F81B44 /* TGCornerView */ = {
 			isa = PBXGroup;
 			children = (
+				60EB42FF1D3CCBDE00F81B44 /* TGCornerView */,
 				60EB42CB1D3CBFDD00F81B44 /* AppDelegate.h */,
 				60EB42CC1D3CBFDD00F81B44 /* AppDelegate.m */,
 				60EB42CE1D3CBFDD00F81B44 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				60EB42EF1D3CBFDD00F81B44 /* Info.plist */,
 			);
 			path = TGCornerViewUITests;
+			sourceTree = "<group>";
+		};
+		60EB42FF1D3CCBDE00F81B44 /* TGCornerView */ = {
+			isa = PBXGroup;
+			children = (
+				60EB43001D3CCBDE00F81B44 /* TGCornerView.h */,
+				60EB43011D3CCBDE00F81B44 /* TGCornerView.m */,
+			);
+			path = TGCornerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60EB43021D3CCBDE00F81B44 /* TGCornerView.m in Sources */,
 				60EB42D01D3CBFDD00F81B44 /* ViewController.m in Sources */,
 				60EB42CD1D3CBFDD00F81B44 /* AppDelegate.m in Sources */,
 				60EB42CA1D3CBFDD00F81B44 /* main.m in Sources */,
