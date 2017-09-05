@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6054A1791F5E4446007DD3B4 /* TGCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6054A1781F5E4446007DD3B4 /* TGCornerView.m */; };
 		60EB42CA1D3CBFDD00F81B44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB42C91D3CBFDD00F81B44 /* main.m */; };
 		60EB42CD1D3CBFDD00F81B44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB42CC1D3CBFDD00F81B44 /* AppDelegate.m */; };
 		60EB42D01D3CBFDD00F81B44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB42CF1D3CBFDD00F81B44 /* ViewController.m */; };
@@ -15,7 +16,7 @@
 		60EB42D81D3CBFDD00F81B44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60EB42D61D3CBFDD00F81B44 /* LaunchScreen.storyboard */; };
 		60EB42E31D3CBFDD00F81B44 /* TGCornerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB42E21D3CBFDD00F81B44 /* TGCornerViewTests.m */; };
 		60EB42EE1D3CBFDD00F81B44 /* TGCornerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB42ED1D3CBFDD00F81B44 /* TGCornerViewUITests.m */; };
-		60EB43021D3CCBDE00F81B44 /* TGCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB43011D3CCBDE00F81B44 /* TGCornerView.m */; };
+		FB21FA2FBB88FA37F9354159 /* libPods-TGCornerView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4F5A1C5EADD5AB32AE8585 /* libPods-TGCornerView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		307B29AF0023A17DEA69E874 /* Pods-TGCornerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGCornerView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TGCornerView/Pods-TGCornerView.debug.xcconfig"; sourceTree = "<group>"; };
+		5A4F5A1C5EADD5AB32AE8585 /* libPods-TGCornerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TGCornerView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6054A1771F5E4446007DD3B4 /* TGCornerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCornerView.h; sourceTree = "<group>"; };
+		6054A1781F5E4446007DD3B4 /* TGCornerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCornerView.m; sourceTree = "<group>"; };
 		60EB42C51D3CBFDD00F81B44 /* TGCornerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGCornerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60EB42C91D3CBFDD00F81B44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		60EB42CB1D3CBFDD00F81B44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,8 +57,7 @@
 		60EB42E91D3CBFDD00F81B44 /* TGCornerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGCornerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60EB42ED1D3CBFDD00F81B44 /* TGCornerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGCornerViewUITests.m; sourceTree = "<group>"; };
 		60EB42EF1D3CBFDD00F81B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		60EB43001D3CCBDE00F81B44 /* TGCornerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCornerView.h; sourceTree = "<group>"; };
-		60EB43011D3CCBDE00F81B44 /* TGCornerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCornerView.m; sourceTree = "<group>"; };
+		C36463D65832A22C4DF54B72 /* Pods-TGCornerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGCornerView.release.xcconfig"; path = "Pods/Target Support Files/Pods-TGCornerView/Pods-TGCornerView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB21FA2FBB88FA37F9354159 /* libPods-TGCornerView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AF56E44A816E64CDFB74484 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				307B29AF0023A17DEA69E874 /* Pods-TGCornerView.debug.xcconfig */,
+				C36463D65832A22C4DF54B72 /* Pods-TGCornerView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6054A1761F5E4446007DD3B4 /* TGCornerView */ = {
+			isa = PBXGroup;
+			children = (
+				6054A1771F5E4446007DD3B4 /* TGCornerView.h */,
+				6054A1781F5E4446007DD3B4 /* TGCornerView.m */,
+			);
+			path = TGCornerView;
+			sourceTree = "<group>";
+		};
 		60EB42BC1D3CBFDD00F81B44 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +111,8 @@
 				60EB42E11D3CBFDD00F81B44 /* TGCornerViewTests */,
 				60EB42EC1D3CBFDD00F81B44 /* TGCornerViewUITests */,
 				60EB42C61D3CBFDD00F81B44 /* Products */,
+				3AF56E44A816E64CDFB74484 /* Pods */,
+				89B2A5F065F7CA0906CE49F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,7 +129,7 @@
 		60EB42C71D3CBFDD00F81B44 /* TGCornerView */ = {
 			isa = PBXGroup;
 			children = (
-				60EB42FF1D3CCBDE00F81B44 /* TGCornerView */,
+				6054A1761F5E4446007DD3B4 /* TGCornerView */,
 				60EB42CB1D3CBFDD00F81B44 /* AppDelegate.h */,
 				60EB42CC1D3CBFDD00F81B44 /* AppDelegate.m */,
 				60EB42CE1D3CBFDD00F81B44 /* ViewController.h */,
@@ -144,13 +169,12 @@
 			path = TGCornerViewUITests;
 			sourceTree = "<group>";
 		};
-		60EB42FF1D3CCBDE00F81B44 /* TGCornerView */ = {
+		89B2A5F065F7CA0906CE49F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				60EB43001D3CCBDE00F81B44 /* TGCornerView.h */,
-				60EB43011D3CCBDE00F81B44 /* TGCornerView.m */,
+				5A4F5A1C5EADD5AB32AE8585 /* libPods-TGCornerView.a */,
 			);
-			path = TGCornerView;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60EB42F21D3CBFDD00F81B44 /* Build configuration list for PBXNativeTarget "TGCornerView" */;
 			buildPhases = (
+				4EF9B692A0AD196C36BDC823 /* [CP] Check Pods Manifest.lock */,
 				60EB42C11D3CBFDD00F81B44 /* Sources */,
 				60EB42C21D3CBFDD00F81B44 /* Frameworks */,
 				60EB42C31D3CBFDD00F81B44 /* Resources */,
+				9506797A57F434CA9BC6A777 /* [CP] Embed Pods Frameworks */,
+				82F197F25DA6CE2DDEEDA35B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -278,12 +305,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4EF9B692A0AD196C36BDC823 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		82F197F25DA6CE2DDEEDA35B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TGCornerView/Pods-TGCornerView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9506797A57F434CA9BC6A777 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TGCornerView/Pods-TGCornerView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		60EB42C11D3CBFDD00F81B44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60EB43021D3CCBDE00F81B44 /* TGCornerView.m in Sources */,
+				6054A1791F5E4446007DD3B4 /* TGCornerView.m in Sources */,
 				60EB42D01D3CBFDD00F81B44 /* ViewController.m in Sources */,
 				60EB42CD1D3CBFDD00F81B44 /* AppDelegate.m in Sources */,
 				60EB42CA1D3CBFDD00F81B44 /* main.m in Sources */,
@@ -425,6 +500,7 @@
 		};
 		60EB42F31D3CBFDD00F81B44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 307B29AF0023A17DEA69E874 /* Pods-TGCornerView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TGCornerView/Info.plist;
@@ -436,6 +512,7 @@
 		};
 		60EB42F41D3CBFDD00F81B44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C36463D65832A22C4DF54B72 /* Pods-TGCornerView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TGCornerView/Info.plist;
@@ -510,6 +587,7 @@
 				60EB42F41D3CBFDD00F81B44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60EB42F51D3CBFDD00F81B44 /* Build configuration list for PBXNativeTarget "TGCornerViewTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +596,7 @@
 				60EB42F71D3CBFDD00F81B44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60EB42F81D3CBFDD00F81B44 /* Build configuration list for PBXNativeTarget "TGCornerViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +605,7 @@
 				60EB42FA1D3CBFDD00F81B44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

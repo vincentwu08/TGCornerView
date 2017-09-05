@@ -10,12 +10,23 @@
 
 @implementation TGCornerView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (void)setCornerRoundDirectionType:(TGRoundDirectionType)cornerRoundDirectionType{
+    _cornerRoundDirectionType = cornerRoundDirectionType;
+    UIBezierPath *maskPath;
+    maskPath = [UIBezierPath bezierPathWithRoundedRect:self.bounds byRoundingCorners:(UIRectCorner)cornerRoundDirectionType cornerRadii:CGSizeMake(5.0f, 5.0f)];
+    CAShapeLayer *maskLayer = [[CAShapeLayer alloc] init];
+    maskLayer.frame = self.bounds;
+    maskLayer.path = maskPath.CGPath;
+    self.layer.mask = maskLayer;
 }
-*/
+
+- (void)setRadiusSize:(NSUInteger)radiusSize{
+    _radiusSize = radiusSize;
+}
+
+- (void)layoutSublayersOfLayer:(CALayer *)layer{
+    [super layoutSublayersOfLayer:layer];
+    self.cornerRoundDirectionType = self.cornerRoundDirectionType;
+}
 
 @end
