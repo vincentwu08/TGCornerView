@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6054A1791F5E4446007DD3B4 /* TGCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6054A1781F5E4446007DD3B4 /* TGCornerView.m */; };
+		6043ACDE22A4C09300D9D4B0 /* TGCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6043ACDC22A4C09300D9D4B0 /* TGCornerView.m */; };
+		6043ACDF22A4C09300D9D4B0 /* TGCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6043ACDC22A4C09300D9D4B0 /* TGCornerView.m */; };
+		6043ACE022A4C09300D9D4B0 /* TGCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6043ACDC22A4C09300D9D4B0 /* TGCornerView.m */; };
 		60EB42CA1D3CBFDD00F81B44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB42C91D3CBFDD00F81B44 /* main.m */; };
 		60EB42CD1D3CBFDD00F81B44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB42CC1D3CBFDD00F81B44 /* AppDelegate.m */; };
 		60EB42D01D3CBFDD00F81B44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB42CF1D3CBFDD00F81B44 /* ViewController.m */; };
@@ -39,8 +41,8 @@
 /* Begin PBXFileReference section */
 		307B29AF0023A17DEA69E874 /* Pods-TGCornerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGCornerView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TGCornerView/Pods-TGCornerView.debug.xcconfig"; sourceTree = "<group>"; };
 		5A4F5A1C5EADD5AB32AE8585 /* libPods-TGCornerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TGCornerView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6054A1771F5E4446007DD3B4 /* TGCornerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCornerView.h; sourceTree = "<group>"; };
-		6054A1781F5E4446007DD3B4 /* TGCornerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCornerView.m; sourceTree = "<group>"; };
+		6043ACDC22A4C09300D9D4B0 /* TGCornerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCornerView.m; sourceTree = "<group>"; };
+		6043ACDD22A4C09300D9D4B0 /* TGCornerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCornerView.h; sourceTree = "<group>"; };
 		60EB42C51D3CBFDD00F81B44 /* TGCornerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGCornerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60EB42C91D3CBFDD00F81B44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		60EB42CB1D3CBFDD00F81B44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -95,11 +97,11 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		6054A1761F5E4446007DD3B4 /* TGCornerView */ = {
+		6043ACDB22A4C09300D9D4B0 /* TGCornerView */ = {
 			isa = PBXGroup;
 			children = (
-				6054A1771F5E4446007DD3B4 /* TGCornerView.h */,
-				6054A1781F5E4446007DD3B4 /* TGCornerView.m */,
+				6043ACDC22A4C09300D9D4B0 /* TGCornerView.m */,
+				6043ACDD22A4C09300D9D4B0 /* TGCornerView.h */,
 			);
 			path = TGCornerView;
 			sourceTree = "<group>";
@@ -129,7 +131,7 @@
 		60EB42C71D3CBFDD00F81B44 /* TGCornerView */ = {
 			isa = PBXGroup;
 			children = (
-				6054A1761F5E4446007DD3B4 /* TGCornerView */,
+				6043ACDB22A4C09300D9D4B0 /* TGCornerView */,
 				60EB42CB1D3CBFDD00F81B44 /* AppDelegate.h */,
 				60EB42CC1D3CBFDD00F81B44 /* AppDelegate.m */,
 				60EB42CE1D3CBFDD00F81B44 /* ViewController.h */,
@@ -188,8 +190,6 @@
 				60EB42C11D3CBFDD00F81B44 /* Sources */,
 				60EB42C21D3CBFDD00F81B44 /* Frameworks */,
 				60EB42C31D3CBFDD00F81B44 /* Resources */,
-				9506797A57F434CA9BC6A777 /* [CP] Embed Pods Frameworks */,
-				82F197F25DA6CE2DDEEDA35B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,6 +247,7 @@
 				TargetAttributes = {
 					60EB42C41D3CBFDD00F81B44 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = XN4U98466P;
 					};
 					60EB42DD1D3CBFDD00F81B44 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -312,43 +313,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TGCornerView-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		82F197F25DA6CE2DDEEDA35B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TGCornerView/Pods-TGCornerView-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9506797A57F434CA9BC6A777 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TGCornerView/Pods-TGCornerView-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -358,7 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6054A1791F5E4446007DD3B4 /* TGCornerView.m in Sources */,
+				6043ACDE22A4C09300D9D4B0 /* TGCornerView.m in Sources */,
 				60EB42D01D3CBFDD00F81B44 /* ViewController.m in Sources */,
 				60EB42CD1D3CBFDD00F81B44 /* AppDelegate.m in Sources */,
 				60EB42CA1D3CBFDD00F81B44 /* main.m in Sources */,
@@ -369,6 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6043ACDF22A4C09300D9D4B0 /* TGCornerView.m in Sources */,
 				60EB42E31D3CBFDD00F81B44 /* TGCornerViewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,6 +352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6043ACE022A4C09300D9D4B0 /* TGCornerView.m in Sources */,
 				60EB42EE1D3CBFDD00F81B44 /* TGCornerViewUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +479,7 @@
 			baseConfigurationReference = 307B29AF0023A17DEA69E874 /* Pods-TGCornerView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XN4U98466P;
 				INFOPLIST_FILE = TGCornerView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VincentWu08.TGCornerView;
@@ -515,6 +492,7 @@
 			baseConfigurationReference = C36463D65832A22C4DF54B72 /* Pods-TGCornerView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XN4U98466P;
 				INFOPLIST_FILE = TGCornerView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VincentWu08.TGCornerView;

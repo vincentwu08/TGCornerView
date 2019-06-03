@@ -28,6 +28,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     TGCornerView *cornerViewTopLeft = [[TGCornerView alloc] init];
+    cornerViewTopLeft.radiusSize = 20.f;
     cornerViewTopLeft.cornerRoundDirectionType = TGRoundDirectionTypeTopLeft;
     cornerViewTopLeft.backgroundColor = [UIColor grayColor];
     self.cornerViewTopLeft = cornerViewTopLeft;

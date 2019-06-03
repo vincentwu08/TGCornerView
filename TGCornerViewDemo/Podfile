@@ -1,0 +1,14 @@
+platform :ios, '8.0'
+inhibit_all_warnings!
+
+def tgcornerview_pods
+#视图布局
+pod 'Masonry’
+
+end
+
+
+target “TGCornerView” do
+    tgcornerview_pods
+end
+

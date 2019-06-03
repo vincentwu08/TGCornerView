@@ -10,21 +10,23 @@
 
 @implementation TGCornerView
 
-- (void)setCornerRoundDirectionType:(TGRoundDirectionType)cornerRoundDirectionType{
+- (void)setCornerRoundDirectionType:(TGRoundDirectionType)cornerRoundDirectionType {
     _cornerRoundDirectionType = cornerRoundDirectionType;
+    CGFloat cornerRadii = self.radiusSize ? self.radiusSize : 5.0f;
     UIBezierPath *maskPath;
-    maskPath = [UIBezierPath bezierPathWithRoundedRect:self.bounds byRoundingCorners:(UIRectCorner)cornerRoundDirectionType cornerRadii:CGSizeMake(5.0f, 5.0f)];
+    maskPath = [UIBezierPath bezierPathWithRoundedRect:self.bounds byRoundingCorners:(UIRectCorner)cornerRoundDirectionType cornerRadii:CGSizeMake(cornerRadii, cornerRadii)];
     CAShapeLayer *maskLayer = [[CAShapeLayer alloc] init];
     maskLayer.frame = self.bounds;
     maskLayer.path = maskPath.CGPath;
     self.layer.mask = maskLayer;
 }
 
-- (void)setRadiusSize:(NSUInteger)radiusSize{
+- (void)setRadiusSize:(CGFloat)radiusSize {
     _radiusSize = radiusSize;
+    self.cornerRoundDirectionType = self.cornerRoundDirectionType;
 }
 
-- (void)layoutSublayersOfLayer:(CALayer *)layer{
+- (void)layoutSublayersOfLayer:(CALayer *)layer {
     [super layoutSublayersOfLayer:layer];
     self.cornerRoundDirectionType = self.cornerRoundDirectionType;
 }
